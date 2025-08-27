@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Hosted Details</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Website Hosted Details</h1>
+    <div id="status" class="status">Detecting…</div>
+  
+    <div id="result" class="result hidden">
+      <div class="row"><span class="label">Host</span><span id="host" class="value"></span></div>
+      <div class="row"><span class="label">IP</span><span id="ip" class="value mono"></span></div>
+      <div class="row"><span class="label">Type</span><span id="type" class="value"></span></div>
+      <div class="row"><span class="label">ISP</span><span id="isp" class="value"></span></div>
+      <div class="row"><span class="label">Org</span><span id="org" class="value"></span></div>
+      <div class="row"><span class="label">Country</span><span id="country" class="value"></span></div>
+      <div class="row"><span class="label">Region</span><span id="region" class="value"></span></div>
+      <div class="row"><span class="label">City</span><span id="city" class="value"></span></div>
+      <div class="row"><span class="label">Timezone</span><span id="timezone" class="value"></span></div>
+      <div class="row"><span class="label">Coordinates</span><span id="coords" class="value mono"></span></div>
+      <div class="row"><span class="label">Map</span><span id="map" class="value"><a id="mapLink" target="_blank" rel="noopener">Open in Maps</a></span></div>
+    </div>
+  
+    <div class="footer">
+      <button id="refresh">Refresh</button>
+      <a id="copy" class="copy">Copy</a>
+    </div>
+  </div>
+    
+  <script src="popup.js" defer></script>
+</body>
+</html>
