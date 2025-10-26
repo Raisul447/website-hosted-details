@@ -38,3 +38,8 @@ Works with all Chromium-based browsers, tested on:
 - Brave
 - Microsoft Edge
 - Vivaldi
+
+## ⚖️ License & Copyright
+- Copyright © **Raisul Islam Shagor** 
+- Contact: deploy@raisul.dev
+- Website: https://raisul.dev/
